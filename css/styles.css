@@ -160,7 +160,16 @@ img {
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
+    margin: 0 auto;
+
     background-color: #2F303A;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+    url(../img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    max-width: 1600px;
 }
 
 .hero-title {
@@ -309,11 +318,40 @@ background-color:#FFFFFF;
 }
 
 .team-list-item-text {
+    margin-bottom: 16px;
+
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--first-text-color);
 }
+
+.team-name-list {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.team-name-list-item:not(:last-child){
+    margin-right: 10px;
+
+}
+
+.team-name-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: tomato;
+}
+
+/* .team-svg {
+    justify-content: center;
+    align-items: center;
+} */
+
 
 /* ----------------------portfolio------------- */
 .portfolio {
