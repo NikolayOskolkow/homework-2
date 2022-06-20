@@ -140,7 +140,7 @@ img {
 }
 
 .header-contacts-link {
-    display: block;
+    display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
 
@@ -149,6 +149,14 @@ img {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--first-link-color);
+}
+
+.header-icon {
+    margin-right: 10px;
+    display: flex;
+    align-self: center;
+    
+    fill: currentColor;
 }
 
 .header-contacts-link:hover,
@@ -358,6 +366,54 @@ background-color:#FFFFFF;
     fill: currentColor;
 }
 
+/* ----------------customers------------------------ */
+.customers {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.cusstomers-title {
+    margin-bottom: 50px;
+
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.customers-list {
+    margin-right: -30px;
+    display: flex;
+}
+
+.customers-list-item {
+    margin-right: 30px;
+}
+
+.customers-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+    background-color: #FFFFFF;
+    color: #AFB1B8
+}
+
+.customers-icon {
+    fill: currentColor;
+}
+
+.customers-link:hover,
+.customers-link:focus {
+    border-color: var(--acent-kolor);
+    color: var(--acent-kolor);
+}
+
 /* ----------------------portfolio------------- */
 .portfolio {
     padding-top: 94px;
@@ -436,6 +492,14 @@ color: var(--first-text-color);
     background-color: #2F303A;
 }
 
+.footer > .container {
+    display: flex;
+}
+
+.footer-container:not(:last-child) {
+    margin-right: 70px;
+}
+
 .footer-logo {
     display: block;
     margin-bottom: 20px;
@@ -452,7 +516,7 @@ color: var(--first-text-color);
     color: #ffffff;
 }
 
-.adres-list-item {
+.adres-list-item:not(:last-child) {
     margin-bottom: 9px;
 }
 
@@ -475,4 +539,48 @@ color: var(--first-text-color);
 .adres-item-link:hover,
 .adres-item-link:focus {
     color: var(--acent-kolor);
+}
+
+.footer-social-title {
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+
+.footer-social-list {
+    margin-right: -10px;
+    display: flex;
+}
+
+.footer-social-list-item {
+    margin-right: 10px;
+    
+}
+
+
+.footer-social-link {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.footer-svg {
+    fill: currentColor;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: var(--acent-kolor);
 }
