@@ -153,16 +153,22 @@ img {
 
 .header-icon {
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-right: 10px;
     display: flex;
     align-self: center;
     
     fill: currentColor;
 =======
+=======
+>>>>>>> d83e187d9f414b0ca8a52d5d04f1067f6e9845fb
     fill: #2196F3;
     margin-right: 20px;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
+>>>>>>> d83e187d9f414b0ca8a52d5d04f1067f6e9845fb
+=======
 >>>>>>> d83e187d9f414b0ca8a52d5d04f1067f6e9845fb
 }
 
